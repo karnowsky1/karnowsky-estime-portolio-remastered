@@ -35,6 +35,7 @@ const Hero = () => {
             <MagicButton title="Show my work"
               icon={<FaLocationArrow />}
               position='right'
+              //TODO: have this send the user to the projects? or even work experience
             />
           </a>
         </div>

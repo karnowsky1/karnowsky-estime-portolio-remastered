@@ -148,6 +148,7 @@ export const BentoGridItem = ({
               position="left"
               otherClasses="!bg-[#161a31]"
               handleClick={handleCopy}
+              //TODO: check the confetti thing to see that it works properly, seems to be late, but may just be my mac 
             />
 
           </div>

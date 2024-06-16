@@ -4,13 +4,14 @@ import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 
 const RecentProjects = () => {
+  // the vertical spacing between these seems to be too much on mobile
   return (
     <div className='py-20' id="projects">
       <h1 className="heading">
         A small selection of {' '}
-        <span className='text-purple'>recent projects</span>
+        <span className="text-purple">recent projects</span>
       </h1>
-      <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({id, title, des, img, iconLists, link}) => (
           <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
             <PinContainer title={link} href={link} >
@@ -48,7 +49,6 @@ const RecentProjects = () => {
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
-
             </PinContainer>
           </div>
         ))}
