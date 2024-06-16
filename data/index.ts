@@ -30,7 +30,7 @@ export const gridItems = [
     id: 3,
     title: "My tech stack",
     description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2", // TODO: make this section more responsive, might want to use flex instead, seems to break around 1024px -1263px width, might want to consider using line-clamp-2 I used this in the projects secrtion to clamp the paragraph to 2 lines
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
