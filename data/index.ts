@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building innovative React and Swift Applications",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -104,35 +104,66 @@ export const projects = [
   },
 ];
 
+export const workExperience = [
+  {
+    id: 1,
+    title: "Full Stack Software Engineer - STI Computer Services",
+    desc: "Developed a healthcare portal Web API controller through Entity framework that allowed users to manage appointments, prescriptions, health records, referrals, and communication between doctors and patients using RESTful API.",
+    className: "md:col-span-3",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "JavaScript Tutor - Wyzant",
+    desc: "Mentored up to 12 clients per week to lead them to boot camp completion and job acquisition ",
+    className: "md:col-span-3", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 3,
+    title: "Software Engineer Intern - GeekHive",
+    desc: "Implemented WCAG 2.0 AA compliance on a high-volume CMS application.",
+    className: "md:col-span-3", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 4,
+    title: "Software Engineer Intern - EmployeeChannel",
+    desc: "Delivered feature improvements for an internal product designed to increase communication efficiency between users at a given company via React and Sass",
+    className: "md:col-span-3",
+    thumbnail: "/exp4.svg",
+  },
+];
+
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "It was a real pleasure working with Karnowsky. He did a great job putting my thoughts into writing. I look forward to working with him again.",
+    name: "AJ",
+    title: "",
+  },
+  {
+    quote:
+      "Helped learn methodology, and solved problems with code with ease, has lots of knowledge to help effectively and efficiently. Very polite and professional.",
+    name: "Reed",
+    title: "",
+  },
+  {
+    quote:
+      "Karnowsky was great, he helped me break down my assignment step by step and reminded me of the importance of research when I came across something I was stuck on. This advice really helps me to feel less overwhelmed when it comes to my homework assignments. His explanations are thorough, straightforward, and easy to understand. He was very kind and did not make me feel like I was asking “dumb” questions at all. Thanks again!",
+    name: "Lily",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Our lesson was on JavaScript. What I like about his teaching method, is the way he breaks bigger problems down, and made sure I understood the small workings. Overall, a great tutor.",
+    name: "Justin",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Karnowsky helped me find answers to my questions and then further explained anything I had additional questions about. I prefer this approach to simply being given the answer. It helped me feel more confident to find my own answers in the future. He was very patient, responsive, flexible, knowledgeable, and adapted to my needs and previous experience. All in all it was a great experience.",
+    name: "Olivia",
     title: "Director of AlphaStream Technologies",
   },
 ];
@@ -140,65 +171,27 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
+    name: "employeeChannel",
+    img: "/employeeChannelLogo.webp",
+    nameImg: "/employeeChannelLogo.webp",
+  },{
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "STI Computer Services",
+    img: "/STIComputerServices.png",
+    nameImg: "/STIComputerServices.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "wyzant",
+    img: "/wyzantLogo.png",
+    nameImg: "/wyzantLogo.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    name: "geehive",
+    img: "/geekhive.jpeg",
+    nameImg: "/geekhive.jpeg",
+  }
 ];
 
 export const socialMedia = [

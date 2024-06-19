@@ -18,8 +18,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Clients />
         <Experience />
+        <Clients />
         <Facts />
         <Footer />
       </div>
