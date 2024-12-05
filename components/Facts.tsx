@@ -14,11 +14,13 @@ const Facts = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card 
-          title="Planning and strategy" 
+          title="Growth and Initiative" 
           icon={<AceternityIcon />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          description="I thrive on learning new technologies and pushing myself to tackle 
+          complex challenges. Taking initiative and owningnership of features within 
+          a project is something I truly enjoy, as it allows me to drive impactful results 
+          while fostering innovation. This approach not only keeps me motivated but also 
+          ensures I deliver thoughtful, high-quality solutions."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +28,13 @@ const Facts = () => {
           />
         </Card>
         <Card 
-          title="Nisha is Munni" 
+          title="Dancer" 
           icon={<AceternityIcon />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          description="I am a passionate dancer specializing in Salsa, Bachata, Brazilian Zouk, Breakdance,
+          and Kizomba, styles that have enriched my understanding of diverse cultures and traditions. 
+          Through dance, I’ve gained a deeper appreciation for human connection and creativity, 
+          insights that influence my approach to technology by emphasizing adaptability, innovation, 
+          and the value of different perspectives."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,11 +47,13 @@ const Facts = () => {
           />
         </Card>
         <Card
-          title="Munni is Aditi" 
+          title="Karnowsky?" 
           icon={<AceternityIcon />}
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          description="I am a proud Haitian American with a name that reflects my roots—my parents 
+          creatively combined their names to give me mine. Having spent most of my life in NYC, 
+          I deeply appreciate the city’s energy, diversity, and endless opportunities for growth 
+          and connection. My background and experiences have shaped my perspective and drive in 
+          everything I do."
         >
           <CanvasRevealEffect
             animationSpeed={3}

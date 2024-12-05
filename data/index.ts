@@ -198,13 +198,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/karnowsky1"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/facebook.svg",
+    url: "https://www.facebook.com/karnowsky.estime/"
   },
   {
     id: 3,
     img: "/link.svg",
+    url:"https://www.linkedin.com/in/karnowsky-estime/"
   },
 ];
