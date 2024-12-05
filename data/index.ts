@@ -92,7 +92,7 @@ export const projects = [
     des: "Clear insights, real-time data visualization, and intuitive tools for managing financial performance efficiently.",
     img: "/finance_dashboard_project_2.png",
     iconLists: ["/re.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/mongodb.svg"],
-    link: "https://finance-dashboard-9sibn2buz-karnowskys-projects.vercel.app/",
+    link: "https://finance-dashboard-lovat-seven.vercel.app/",
   },
   {
     id: 4,
