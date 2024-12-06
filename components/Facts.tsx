@@ -2,8 +2,8 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
-import { HiOutlineLightningBolt } from "react-icons/hi";
-import { RxQuestionMark } from "react-icons/rx";
+// import { HiOutlineLightningBolt } from "react-icons/hi";
+// import { RxQuestionMark } from "react-icons/rx";
 import { FaQuestion } from "react-icons/fa6";
 
 const Facts = () => {

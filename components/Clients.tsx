@@ -21,13 +21,8 @@ const clients = () => {
               key={id}
               className="flex md:max-w-60 max-w-32 gap-2"
             >
-              {/* <img 
-                src={img}
-                alt={name}
-                className="md:w-10 w-5"
-              /> */}
               <img 
-                src={nameImg}
+                src={img}
                 alt={name}
                 className="md:w-24 w-20"
               />

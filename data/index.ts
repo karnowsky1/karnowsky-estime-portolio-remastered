@@ -1,3 +1,5 @@
+import { getImageUrl } from "../utils/imagePath"
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -13,7 +15,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: getImageUrl("/b1.svg"),
     spareImg: "",
   },
   {
@@ -43,7 +45,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: getImageUrl("/grid.svg"),
     spareImg: "/b4.svg",
   },
 
@@ -54,7 +56,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: getImageUrl("/b5.svg"),
     spareImg: "/grid.svg",
   },
   {
@@ -74,32 +76,32 @@ export const projects = [
     id: 1,
     title: "Full-Stack E-Commerce App",
     des: "Explore my eCommerce application, designed with a focus on intuitive user experience, modern design, and reliable functionality to enhance online shopping.",
-    img: "/ECommerce_Project.png",
-    iconLists: ["/re.svg", "/next.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/stripe.svg", "/prisma.svg", "/mongodb.svg", "/firebase.svg", "/googlecloud.svg" ],
+    img: getImageUrl("/ECommerce_Project.png"),
+    iconLists: ["/re.svg", "/next.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/stripe.svg", "/prisma.svg", "/mongodb.svg", "/firebase.svg", "/googlecloud.svg" ].map((icon) => getImageUrl(icon)),
     link: "https://e-store-prod.vercel.app/",
   },
   {
     id: 2,
     title: "Inventory Management App",
     des: "Simplify stock tracking and optimize operations with a user-friendly and reliable system.",
-    img: "/invetory_management_project.png",
-    iconLists: ["/re.svg", "/next.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/nodejs.svg","/prisma.svg", "/postgres.svg", "/aws.svg"],
+    img: getImageUrl("/invetory_management_project.png"),
+    iconLists: ["/re.svg", "/next.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/nodejs.svg","/prisma.svg", "/postgres.svg", "/aws.svg"].map((icon) => getImageUrl(icon)),
     link: "https://main.d1jd0ipv9onxpf.amplifyapp.com/dashboard",
   },
   {
     id: 3,
     title: "Finance Dashboard App",
     des: "Clear insights, real-time data visualization, and intuitive tools for managing financial performance efficiently.",
-    img: "/finance_dashboard_project.png",
-    iconLists: ["/re.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/mongodb.svg"],
+    img: getImageUrl("/finance_dashboard_project.png"),
+    iconLists: ["/re.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/mongodb.svg"].map((icon) => getImageUrl(icon)),
     link: "https://finance-dashboard-lovat-seven.vercel.app/",
   },
   {
     id: 4,
     title: "New Applications Coming Soon!",
     des: "Focusing on expanding my skills and showcasing innovative solutions that demonstrate my passion for development",
-    img: "/work_in_progress.png",
-    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    img: getImageUrl("/work_in_progress.png"),
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg"].map((icon) => getImageUrl(icon)),
     link: "https://github.com/karnowsky1",
   },
 ];
@@ -110,28 +112,28 @@ export const workExperience = [
     title: "Full Stack Software Engineer - STI Computer Services",
     desc: "Developed a healthcare portal Web API controller through Entity framework that allowed users to manage appointments, prescriptions, health records, referrals, and communication between doctors and patients using RESTful API",
     className: "md:col-span-3",
-    thumbnail: "/exp1.svg",
+    thumbnail: getImageUrl("/exp1.svg"),
   },
   {
     id: 2,
     title: "JavaScript Tutor - Wyzant",
     desc: "Mentored up to 12 clients per week to lead them to boot camp completion and job acquisition including full stack concepts and deployment practices",
     className: "md:col-span-3", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: getImageUrl("/exp3.svg"),
   },
   {
     id: 3,
     title: "Software Engineer Intern - GeekHive",
     desc: "Implemented WCAG 2.0 AA compliance on a high-volume CMS application while improving accessibility by 40% on the web and mobile app",
     className: "md:col-span-3", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: getImageUrl("/exp2.svg"),
   },
   {
     id: 4,
     title: "Software Engineer Intern - EmployeeChannel",
     desc: "Delivered feature improvements for an internal product designed to increase communication efficiency between users at a given company via React and Sass",
     className: "md:col-span-3",
-    thumbnail: "/exp4.svg",
+    thumbnail: getImageUrl("/exp4.svg"),
   },
 ];
 
@@ -172,24 +174,24 @@ export const companies = [
   {
     id: 1,
     name: "employeeChannel",
-    img: "/employeeChannelLogo.webp",
+    img: getImageUrl("/employeeChannelLogo.webp"),
     nameImg: "/employeeChannelLogo.webp",
   },{
     id: 2,
     name: "STI Computer Services",
-    img: "/STIComputerServices.png",
+    img: getImageUrl("/STIComputerServices.png"),
     nameImg: "/STIComputerServices.png",
   },
   {
     id: 3,
     name: "wyzant",
-    img: "/wyzantLogo.png",
+    img: getImageUrl("/wyzantLogo.png"),
     nameImg: "/wyzantLogo.png",
   },
   {
     id: 4,
     name: "geehive",
-    img: "/geekhive.jpeg",
+    img: getImageUrl("/geekhive.jpeg"),
     nameImg: "/geekhive.jpeg",
   }
 ];
@@ -197,17 +199,17 @@ export const companies = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: getImageUrl("/git.svg"),
     url: "https://github.com/karnowsky1"
   },
   {
     id: 2,
-    img: "/facebook.svg",
+    img: getImageUrl("/facebook.svg"),
     url: "https://www.facebook.com/karnowsky.estime/"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: getImageUrl("/link.svg"),
     url:"https://www.linkedin.com/in/karnowsky-estime/"
   },
 ];
