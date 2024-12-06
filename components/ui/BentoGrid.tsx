@@ -143,7 +143,7 @@ export const BentoGridItem = ({
         {id === 6 && (
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
-              <Lottie options={lottieOptions} />
+              { typeof document !== 'undefined' &&  <Lottie options={lottieOptions} />}
             </div>
             <MagicButton 
               title={copied ? 'Email copied' : 'Copy my email'}
