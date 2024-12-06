@@ -2,7 +2,7 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import animationData from '@/data/confetti.json';
 import Lottie from "react-lottie"
 import MagicButton from "./MagicButton";
@@ -49,9 +49,18 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    // navigator.clipboard.writeText('karnowskye@gmail.com');
-    console.log("placeholder")
+    setCopied(!copied)
+    navigator.clipboard.writeText('karnowskye@gmail.com');
   }
+
+  const lottieOptions = useMemo(() => ({
+    loop: copied,
+    autoplay: copied,
+    animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  }), [copied])
   return (
     <div
       className={cn(
@@ -134,14 +143,7 @@ export const BentoGridItem = ({
         {id === 6 && (
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
-              {/* <Lottie options={{
-                loop: copied,
-                autoplay: copied,
-                animationData,
-                rendererSettings: {
-                  preserveAspectRatio: 'xMidYMid slice',
-                }
-              }} /> */}
+              <Lottie options={lottieOptions} />
             </div>
             <MagicButton 
               title={copied ? 'Email copied' : 'Copy my email'}
@@ -149,7 +151,6 @@ export const BentoGridItem = ({
               position="left"
               otherClasses="!bg-[#161a31]"
               handleClick={handleCopy}
-              //TODO: check the confetti thing to see that it works properly, seems to be late, but may just be my mac 
             />
 
           </div>
