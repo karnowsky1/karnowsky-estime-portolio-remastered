@@ -98,7 +98,7 @@ export const BentoGridItem = ({
           </div>
         
         
-        {/* {id === 2 && <GlobeDemo />} */}
+        {id === 2 && <GlobeDemo />}
         {id === 3 && (
           <div className="flex gap-1 lg:gap-5 w-fit absolute right-2 lg:-right-2">
             <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
