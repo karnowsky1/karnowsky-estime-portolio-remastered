@@ -4,7 +4,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import { useMemo, useState } from "react";
 import animationData from '@/data/confetti.json';
-import Lottie from "react-lottie"
+// import Lottie from "react-lottie"
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -143,7 +143,7 @@ export const BentoGridItem = ({
         {id === 6 && (
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
-              { typeof document !== 'undefined' &&  <Lottie options={lottieOptions} />}
+              {/* <Lottie options={lottieOptions} /> */}
             </div>
             <MagicButton 
               title={copied ? 'Email copied' : 'Copy my email'}
