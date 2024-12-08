@@ -75,7 +75,7 @@ export const projects = [
   {
     id: 1,
     title: "Full-Stack E-Commerce App",
-    des: "Explore my eCommerce application, designed with a focus on intuitive user experience, modern design, and reliable functionality to enhance online shopping.",
+    des: "Designed to focus on intuitive user experience, modern design, and reliable functionality to enhance online shopping",
     img: getImageUrl("/ECommerce_Project.png"),
     iconLists: ["/re.svg", "/next.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/stripe.svg", "/prisma.svg", "/mongodb.svg", "/firebase.svg", "/googlecloud.svg" ].map((icon) => getImageUrl(icon)),
     link: "https://e-store-prod.vercel.app/",
@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "Inventory Management App",
-    des: "Simplify stock tracking and optimize operations with a user-friendly and reliable system.",
+    des: "Simplify stock tracking, expenses, profits, and optimize finance operations with a user-friendly and reliable system",
     img: getImageUrl("/invetory_management_project.png"),
     iconLists: ["/re.svg", "/next.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/nodejs.svg","/prisma.svg", "/postgres.svg", "/aws.svg"].map((icon) => getImageUrl(icon)),
     link: "https://main.d1jd0ipv9onxpf.amplifyapp.com/dashboard",
@@ -91,7 +91,7 @@ export const projects = [
   {
     id: 3,
     title: "Finance Dashboard App",
-    des: "Clear insights, real-time data visualization, and intuitive tools for managing financial performance efficiently.",
+    des: "Clear insights, real-time data visualization, and intuitive tools for managing financial performance efficiently",
     img: getImageUrl("/finance_dashboard_project.png"),
     iconLists: ["/re.svg", "/redux.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/mongodb.svg"].map((icon) => getImageUrl(icon)),
     link: "https://finance-dashboard-lovat-seven.vercel.app/",

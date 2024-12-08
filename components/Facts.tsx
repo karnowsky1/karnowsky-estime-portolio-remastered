@@ -30,7 +30,7 @@ const Facts = () => {
         <Card 
           title="Dancer" 
           icon={<AceternityIcon />}
-          description="I am a passionate dancer specializing in Salsa, Bachata, Brazilian Zouk, Breakdance,
+          description="I'm a passionate dancer specializing in Salsa, Bachata, Brazilian Zouk, Breakdance,
           and Kizomba, styles that have enriched my understanding of diverse cultures and traditions. 
           Through dance, I’ve gained a deeper appreciation for human connection and creativity, 
           insights that influence my approach to technology by emphasizing adaptability, innovation, 
@@ -49,7 +49,7 @@ const Facts = () => {
         <Card
           title="Karnowsky?" 
           icon={<AceternityIcon />}
-          description="I am a proud Haitian American with a name that reflects my roots—my parents 
+          description="I'm a proud Haitian American with a name that reflects my roots—my parents 
           creatively combined their names to give me mine. Having spent most of my life in NYC, 
           I deeply appreciate the city’s energy, diversity, and endless opportunities for growth 
           and connection. My background and experiences have shaped my perspective and drive in 
