@@ -75,7 +75,7 @@ export const projects = [
   {
     id: 1,
     title: "Full-Stack E-Commerce App",
-    des: "Designed to focus on intuitive user experience, modern design, and reliable functionality to enhance online shopping",
+    des: "Designed for intuitive user experience, modern design, and reliable functionality to enhance online shopping",
     img: getImageUrl("/ECommerce_Project.png"),
     iconLists: ["/re.svg", "/next.svg", "/materialui.svg", "/tail.svg", "/ts.svg", "/stripe.svg", "/prisma.svg", "/mongodb.svg", "/firebase.svg", "/googlecloud.svg" ].map((icon) => getImageUrl(icon)),
     link: "https://e-store-prod.vercel.app/",
