@@ -49,7 +49,7 @@ const RecentProjects = () => {
                       }`}
                       style={{ zIndex: iconLists.length - index }}
                     >
-                      <img src={icon} alt={`Icon ${index}`} className="p-2" />
+                      <Image src={icon} alt={`Icon ${index}`} className="p-2" />
                     </div>
                   ))}
                 </div>
